@@ -1,4 +1,3 @@
-````md
 # 🛡️ DeepGuard  
 ### Real-Time Deepfake Detection for Images, Videos & Live Screen Content
 
@@ -174,6 +173,6 @@ For research and educational use.
 DeepGuard focuses on **real-world deployability** rather than benchmark-only performance.
 By enabling **live, on-device deepfake detection**, it addresses a growing need for scalable AI safety tools in modern digital platforms.
 
-```
+
 
 
