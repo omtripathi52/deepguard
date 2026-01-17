@@ -57,7 +57,7 @@ Each pipeline can be run **independently**.
 
 ## ▶️ How to Run
 
-### 1️⃣ Setup
+### 1️⃣ Setup (Windows)
 
 ```bash
 python -m venv venv
@@ -69,27 +69,43 @@ pip install -r requirements.txt
 
 ### 2️⃣ Run Pipelines
 
-**Image**
+### 🖼️ Image
 
 ```bash
 python -m core.image_pipeline --path face_0.jpg
-or python -m core.image_pipeline --image face_0.jpg
 ```
 
-**Video**
+or
 
 ```bash
-python -m core.video_pipeline --path "put_video_path_here"
-or python -m core.video_pipeline --video "put_video_path_here"
+python -m core.image_pipeline --image face_0.jpg
 ```
 
-**Webcam**
+---
+
+### 🎞️ Video
+
+```bash
+python -m core.video_pipeline --path "path/to/video.mp4"
+```
+
+or
+
+```bash
+python -m core.video_pipeline --video "path/to/video.mp4"
+```
+
+---
+
+### 📷 Webcam
 
 ```bash
 python -m core.live_pipeline
 ```
 
-**Live Screen / Social Media**
+---
+
+### 🖥️ Live Screen / Social Media
 
 ```bash
 python -m core.screen_pipeline
@@ -173,6 +189,4 @@ For research and educational use.
 DeepGuard focuses on **real-world deployability** rather than benchmark-only performance.
 By enabling **live, on-device deepfake detection**, it addresses a growing need for scalable AI safety tools in modern digital platforms.
 
-
-
-
+```
